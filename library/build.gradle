@@ -1,7 +1,8 @@
 plugins {
     id 'com.android.library'
-}
 
+}
+group = 'com.github.bhoomijadav'
 android {
     compileSdk 31
 
@@ -26,7 +27,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
 }
-
 dependencies {
 
     implementation 'com.android.support:appcompat-v7:28.0.0'
